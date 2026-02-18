@@ -17,6 +17,9 @@ public abstract class GeometricObject {
         this.dateCreated = dateCreated;
     }
 
+    public GeometricObject(String color, boolean filled) {
+    }
+
     public String getColor() {
         return color;
     }
